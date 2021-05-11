@@ -1,0 +1,13 @@
+dubbo:
+  application:
+    name: dubbo-demo-annotation-provider
+  protocol:
+    name: dubbo
+    port: 20880
+    payload: 8388608
+  provider:
+    timeout: 30000
+server:
+  port: 8081
+logging:
+  root: debug
